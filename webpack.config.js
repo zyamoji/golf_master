@@ -5,5 +5,10 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist/js'),
         filename: 'bundle.js'
+    },
+    devServer: {
+        contentBase: path.join(__dirname, '/'),
+        historyApiFallback: true,
+        port: 3000
     }
 };
