@@ -5,6 +5,7 @@
             "holes": [
                 {
                     "number": 1,
+                    "par": 3,
                     "tee_position": {
                         "lng": 139.639445,
                         "lat": 35.598297
