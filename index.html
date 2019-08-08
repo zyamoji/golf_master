@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <title>Golf Master</title>
-    </head>
-    <body>
-        <div id="course_display">
-            <span id="course_label">コース名：</span><span id="course">東急ゴルフパークたまがわ</span>
-        </div>
-        <div id="hole_display">
-            <span id="hole_label">ホール：</span><span id="hole">1</span>
-        </div>
-        <div id="position_get_btn">
-            <button>位置取得</button>
-        </div>
-        <div id="app">「位置取得」ボタンを押すと、ここに情報が表示されます。</div>
-        <script src="./dist/js/bundle.js"></script>
-        
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Golf Master</title>
+</head>
+
+<body>
+    <div id="course_display">
+        <span id="course_label">コース名：</span>
+        <select name="cource_select" id="cource_select">
+            <option value="golf_park_tamagawa">東急ゴルフパークたまがわ</option>
+        </select>
+    </div>
+    <div id="hole_display">
+        <span id="hole_label">ホール：</span><span id="hole">1</span>
+    </div>
+    <div id="position_get_btn">
+        <button>位置取得</button>
+    </div>
+    <div id="app">「位置取得」ボタンを押すと、ここに情報が表示されます。</div>
+    <script src="./dist/js/bundle.js"></script>
+
+</body>
+
 </html>
