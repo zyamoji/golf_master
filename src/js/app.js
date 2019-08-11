@@ -1,10 +1,7 @@
 import get_position from './get_position';
 import calc_dist_from_lon_lat from './calc_dist_from_lon_lat';
+import get_course_data from './get_course_data';
 
-const deg_x1 = 139.639445; // tee
-const deg_y1 = 35.598297;
-const deg_x2 = 139.638682; // cup
-const deg_y2 = 35.599348;
 
 // 位置取得ボタン
 const position_get_btn = document.getElementById('position_get_btn');
@@ -12,8 +9,18 @@ const position_get_btn = document.getElementById('position_get_btn');
 position_get_btn.addEventListener("click", async function() {
     // 現在地の取得の処理を待つためにawait
     const {ball_lng, ball_lat} = await get_position();
+
+    // 選択されたホールのカップ情報を取得
+    const cup_lng_lat = get_course_data("course_select", "hole_select")
+        
     // 現在地からカップまでの距離を計算
-    const {meter, yard} = calc_dist_from_lon_lat(ball_lng, ball_lat, deg_x2, deg_y2);
+    const {meter, yard} = calc_dist_from_lon_lat(ball_lng, ball_lat, cup_lng_lat["lng"], cup_lng_lat["lat"]);
     // 計算結果を表示
     document.getElementById('app').innerHTML = "カップまでの距離は" + Math.round(yard) + "y (" + Math.round(meter) + " m)";
+}, false)
+
+// コース情報の読み込み
+document.addEventListener('DOMContentLoaded', function() {
+    get_course_data("course_select", "hole_select")
+    console.log("コース情報を読み込みました")
 }, false)
