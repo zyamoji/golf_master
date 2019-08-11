@@ -10,5 +10,14 @@ module.exports = {
         contentBase: path.join(__dirname, '/'),
         historyApiFallback: true,
         port: 3000
+    },
+    module: {
+        rules: [
+            {
+                test: /\.json$/,
+                loader: "json-loader",
+                type: "javascript/auto"
+            }
+        ]
     }
 };
