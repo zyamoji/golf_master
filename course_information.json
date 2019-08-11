@@ -1,18 +1,33 @@
 {
     "courses": [{
         "name": "golf_park_tamagawa",
-        "holes": [{
-            "number": 1,
-            "par": 3,
-            "yard_length": 151,
-            "tee_position": {
-                "lng": 139.639445,
-                "lat": 35.598297
+        "holes": [
+            {
+                "number": 1,
+                "par": 3,
+                "yard_length": 151,
+                "tee_position": {
+                    "lng": 139.639445,
+                    "lat": 35.598297
+                },
+                "cup_position": {
+                    "lng": 139.638682,
+                    "lat": 35.599348
+                }
             },
-            "cup_position": {
-                "lng": 139.638682,
-                "lat": 35.599348
+            {
+                "number": 2,
+                "par": 3,
+                "yard_length": 90,
+                "tee_position": {
+                    "lng": 139.637974,
+                    "lat":　 35.599366
+                },
+                "cup_position": {
+                    "lng": 139.638676,
+                    "lat":　 35.599762
+                }
             }
-        }]
+        ]
     }]
 }
