@@ -28,6 +28,71 @@
                         "lng": 139.638676,
                         "lat": 35.599762
                     }
+                },
+                {
+                    "number": 3,
+                    "par": 3,
+                    "yard_length": 175,
+                    "tee_position": {
+                        "lng": 139.639553,
+                        "lat": 35.599416
+                    },
+                    "cup_position": {
+                        "lng": 139.640763,
+                        "lat": 35.598402
+                    }
+                },
+                {
+                    "number": 4,
+                    "par": 3,
+                    "yard_length": 115,
+                    "tee_position": {
+                        "lng": 139.641037,
+                        "lat": 35.598294
+                    },
+                    "cup_position": {
+                        "lng": 139.641566,
+                        "lat": 35.597494
+                    }
+                },
+                {
+                    "number": 5,
+                    "par": 3,
+                    "yard_length": 136,
+                    "tee_position": {
+                        "lng": 139.642457,
+                        "lat": 35.597359
+                    },
+                    "cup_position": {
+                        "lng": 139.642894,
+                        "lat": 35.596358
+                    }
+                },
+                {
+                    "number": 6,
+                    "par": 3,
+                    "yard_length": 124,
+                    "tee_position": {
+                        "lng": 139.642284,
+                        "lat": 35.596464
+                    },
+                    "cup_position": {
+                        "lng": 139.642014,
+                        "lat": 35.597376
+                    }
+                },
+                {
+                    "number": 7,
+                    "par": 3,
+                    "yard_length": 135,
+                    "tee_position": {
+                        "lng": 139.641049,
+                        "lat": 35.597235
+                    },
+                    "cup_position": {
+                        "lng": 139.640243,
+                        "lat": 35.598114
+                    }
                 }
             ]
         }
