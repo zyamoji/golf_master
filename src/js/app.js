@@ -16,7 +16,7 @@ position_get_btn.addEventListener("click", async function() {
     // 現在地からカップまでの距離を計算
     const {meter, yard} = calc_dist_from_lon_lat(ball_lng, ball_lat, cup_lng_lat["lng"], cup_lng_lat["lat"]);
     // 計算結果を表示
-    document.getElementById('app').innerHTML = "カップまでの距離は" + Math.round(yard) + "y (" + Math.round(meter) + " m)";
+    document.getElementById('app').innerHTML = "カップまで" + Math.round(yard) + "y (" + Math.round(meter) + " m)";
 }, false)
 
 // コース情報の読み込み
