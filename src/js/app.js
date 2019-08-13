@@ -1,6 +1,8 @@
 import get_position from './get_position';
 import calc_dist_from_lon_lat from './calc_dist_from_lon_lat';
 import get_course_data from './get_course_data';
+import shot_counter from './shot_counter';
+import style from '../css/style'
 
 
 // 位置取得ボタン
@@ -18,6 +20,9 @@ position_get_btn.addEventListener("click", async function() {
     // 計算結果を表示
     document.getElementById('app').innerHTML = "カップまで" + Math.round(yard) + "y (" + Math.round(meter) + " m)";
 }, false)
+
+// 打数カウンタ
+shot_counter();
 
 // コース情報の読み込み
 document.addEventListener('DOMContentLoaded', function() {

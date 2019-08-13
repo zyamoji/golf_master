@@ -1,0 +1,9 @@
+button.shot_btn {
+    font-size: 1.4em;
+}
+
+#shot_counter_box {
+    height: 22px;
+    width: 40px;
+    font-size: 1.4em;
+}

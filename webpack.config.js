@@ -17,7 +17,20 @@ module.exports = {
                 test: /\.json$/,
                 loader: "json-loader",
                 type: "javascript/auto"
+            },
+            {
+                test: /\.css$/,
+                use: [
+                    "style-loader",
+                    "css-loader"
+                ]
             }
+        ]
+    },
+    resolve: {
+        extensions: [
+            '.js',
+            '.css'
         ]
     }
 };
