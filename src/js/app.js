@@ -2,6 +2,8 @@ import get_position from './get_position';
 import calc_dist_from_lon_lat from './calc_dist_from_lon_lat';
 import get_course_data from './get_course_data';
 import shot_counter from './shot_counter';
+import save_to_localstorage from './save_to_localstorage';
+import read_from_localstorage from './read_from_localstorage';
 import style from '../css/style'
 
 
@@ -24,8 +26,19 @@ position_get_btn.addEventListener("click", async function() {
 // 打数カウンタ
 shot_counter();
 
-// コース情報の読み込み
+// 打数保存ボタン
+const save_to_localstorage_btn = document.getElementById('save_to_localstorage_btn');
+// クリックしたら打数保存
+save_to_localstorage_btn.addEventListener("click", save_to_localstorage());
+
+// 打数ログ読み込みボタン
+const read_from_localstorage_btn = document.getElementById('read_from_localstorage_btn');
+// クリックしたら打数保存
+read_from_localstorage();
+
+// 起動時の処理
 document.addEventListener('DOMContentLoaded', function() {
+    // コース情報の読み込み
     get_course_data("course_select", "hole_select")
     console.log("コース情報を読み込みました")
 }, false)
