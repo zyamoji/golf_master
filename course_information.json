@@ -95,6 +95,247 @@
                     }
                 }
             ]
+        },
+        {
+            "name": "uchihara_country_club",
+            "holes": [
+                {
+                    "number": 1,
+                    "par": 5,
+                    "yard_length": 460,
+                    "tee_position": {
+                        "lng": 140.342656,
+                        "lat": 36.348162
+                    },
+                    "cup_position": {
+                        "lng": 140.338987,
+                        "lat": 36.346092
+                    }
+                },
+                {
+                    "number": 2,
+                    "par": 4,
+                    "yard_length": 305,
+                    "tee_position": {
+                        "lng": 140.339908,
+                        "lat": 36.345735
+                    },
+                    "cup_position": {
+                        "lng": 140.337950,
+                        "lat": 36.344242
+                    }
+                },
+                {
+                    "number": 3,
+                    "par": 4,
+                    "yard_length": 345,
+                    "tee_position": {
+                        "lng": 140.337392,
+                        "lat": 36.343059
+                    },
+                    "cup_position": {
+                        "lng": 140.335014,
+                        "lat": 36.341032
+                    }
+                },
+                {
+                    "number": 4,
+                    "par": 3,
+                    "yard_length": 171,
+                    "tee_position": {
+                        "lng": 140.336440,
+                        "lat": 36.341838
+                    },
+                    "cup_position": {
+                        "lng": 140.337852,
+                        "lat": 36.342274
+                    }
+                },
+                {
+                    "number": 5,
+                    "par": 5,
+                    "yard_length": 478,
+                    "tee_position": {
+                        "lng": 140.338649,
+                        "lat": 36.341490
+                    },
+                    "cup_position": {
+                        "lng": 140.334603,
+                        "lat": 36.339986
+                    }
+                },
+                {
+                    "number": 6,
+                    "par": 4,
+                    "yard_length": 413,
+                    "tee_position": {
+                        "lng": 140.333951,
+                        "lat": 36.340376
+                    },
+                    "cup_position": {
+                        "lng": 140.335232,
+                        "lat": 36.343449
+                    }
+                },
+                {
+                    "number": 7,
+                    "par": 3,
+                    "yard_length": 159,
+                    "tee_position": {
+                        "lng": 140.335811,
+                        "lat": 36.342888
+                    },
+                    "cup_position": {
+                        "lng": 140.337207,
+                        "lat": 36.343637
+                    }
+                },
+                {
+                    "number": 8,
+                    "par": 4,
+                    "yard_length": 298,
+                    "tee_position": {
+                        "lng": 140.339114,
+                        "lat": 36.343746
+                    },
+                    "cup_position": {
+                        "lng": 140.340728,
+                        "lat": 36.345726
+                    }
+                },
+                {
+                    "number": 9,
+                    "par": 4,
+                    "yard_length": 378,
+                    "tee_position": {
+                        "lng": 140.340752,
+                        "lat": 36.346442
+                    },
+                    "cup_position": {
+                        "lng": 140.343722,
+                        "lat": 36.348119
+                    }
+                },
+                {
+                    "number": 10,
+                    "par": 5,
+                    "yard_length": 463,
+                    "tee_position": {
+                        "lng": 140.343328,
+                        "lat": 36.345784
+                    },
+                    "cup_position": {
+                        "lng": 140.340357,
+                        "lat": 36.343519
+                    }
+                },
+                {
+                    "number": 11,
+                    "par": 3,
+                    "yard_length": 152,
+                    "tee_position": {
+                        "lng": 140.340982,
+                        "lat": 36.343275
+                    },
+                    "cup_position": {
+                        "lng": 140.342452,
+                        "lat": 36.343327
+                    }
+                },
+                {
+                    "number": 12,
+                    "par": 4,
+                    "yard_length": 352,
+                    "tee_position": {
+                        "lng": 140.342009,
+                        "lat": 36.342618
+                    },
+                    "cup_position": {
+                        "lng": 140.343013,
+                        "lat": 36.340116
+                    }
+                },
+                {
+                    "number": 13,
+                    "par": 4,
+                    "yard_length":  290,
+                    "tee_position": {
+                        "lng": 140.343027,
+                        "lat": 36.340631
+                    },
+                    "cup_position": {
+                        "lng": 140.343015,
+                        "lat": 36.343216
+                    }
+                },
+                {
+                    "number": 14,
+                    "par": 4,
+                    "yard_length": 399,
+                    "tee_position": {
+                        "lng": 140.343569,
+                        "lat": 36.342869
+                    },
+                    "cup_position": {
+                        "lng": 140.343919,
+                        "lat": 36.339608
+                    }
+                },
+                {
+                    "number": 15,
+                    "par": 5,
+                    "yard_length": 482,
+                    "tee_position": {
+                        "lng": 140.343240,
+                        "lat": 36.339326
+                    },
+                    "cup_position": {
+                        "lng": 140.340163,
+                        "lat": 36.342115
+                    }
+                },
+                {
+                    "number": 16,
+                    "par": 3,
+                    "yard_length": 151,
+                    "tee_position": {
+                        "lng": 140.339698,
+                        "lat": 36.342879
+                    },
+                    "cup_position": {
+                        "lng": 140.338471,
+                        "lat": 36.343342
+                    }
+                },
+                {
+                    "number": 17,
+                    "par": 4,
+                    "yard_length": 307,
+                    "tee_position": {
+                        "lng": 140.339505,
+                        "lat": 36.343631
+                    },
+                    "cup_position": {
+                        "lng": 140.341971,
+                        "lat": 36.344896
+                    }
+                },
+                {
+                    "number": 18,
+                    "par": 4,
+                    "yard_length": 416,
+                    "tee_position": {
+                        "lng": 140.341661,
+                        "lat": 36.346169
+                    },
+                    "cup_position": {
+                        "lng": 140.344941,
+                        "lat": 36.348076
+                    }
+                }
+
+
+            ]
         }
     ]
 }
