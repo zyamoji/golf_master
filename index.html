@@ -4,64 +4,106 @@
 <head>
     <meta charset="UTF-8">
     <title>Golf Master</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./src/css/bulma.min.css">
 </head>
 
 <body>
-    <div id="course_display">
-        <span id="course_label">コース名：</span>
-        <select name="cource_select" id="course_select">
-            <option value="initial_value">コースを選択してください</option>
-            <option value="golf_park_tamagawa" selected>東急ゴルフパークたまがわ</option>
-            <option value="uchihara_country_club">内原カントリー倶楽部</option>
-        </select>
-    </div>
-    <div id="hole_display">
-        <span id="hole_label">ホール：</span>
-        <select name="hole_select" id="hole_select">
-            <option value="0">ホールを選択してください</option>
-            <option value="1" selected>1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-            <option value="11">11</option>
-            <option value="12">12</option>
-            <option value="13">13</option>
-            <option value="14">14</option>
-            <option value="15">15</option>
-            <option value="16">16</option>
-            <option value="17">17</option>
-            <option value="18">18</option>
-        </select>
-    </div>
-    <div>
-        <button id="position_get_btn">位置取得</button>
-    </div>
-    <div id="app">「位置取得」ボタンを押すと、ここに情報が表示されます。</div>
-    <br />
-    <div>
-        <div>打数カウンタ</div>
-        <button id="shot_dec_btn" class="shot_btn">-</button>
-        <input id="shot_counter_box" type="text" size="4" value="0" readonly>
-        <button id="shot_inc_btn" class="shot_btn">+</button>
-        <div>
-            <button id="save_to_localstorage_btn">打数を保存</button>
-        </div>
-        <br />
-        <div>
-            <button id="read_from_localstorage_btn">打数ログを読み込む</button>
-        </div>
-        <div id="display_shot_counter">
 
-        </div>
-    </div>
-    <script src="./dist/js/bundle.js"></script>
+    <section class="section">
+        <div class="container">
+            <div class="field" id="course_display">
+                <label class="label">コース名</label>
+                <div class="control">
+                    <div class="select">
+                        <select name="cource_select" id="course_select">
+                            <option value="initial_value">コースを選択してください</option>
+                            <option value="golf_park_tamagawa" selected>東急ゴルフパークたまがわ</option>
+                            <option value="uchihara_country_club">内原カントリー倶楽部</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
 
+            <div class="field" id="hole_display">
+                <label class="label">ホール</label>
+                <div class="control">
+                    <div class="select">
+                        <select name="hole_select" id="hole_select">
+                            <option value="0">ホールを選択してください</option>
+                            <option value="1" selected>1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="field">
+                <div class="control">
+                    <button id="position_get_btn" class="button is-link">位置取得</button>
+                </div>
+            </div>
+            <p id="app">「位置取得」ボタンを押すと、ここに情報が表示されます。</p>
+            <br />
+            <div class="field">
+                <label class="label">打数カウンタ</label>
+                <div class="field has-addons">
+                    <p class="control">
+                        <button class="button" id="shot_dec_btn">
+                            -
+                        </button>
+                    </p>
+                    <p class="control">
+                        <input class="input" type="text" placeholder="0" size="4" id="shot_counter_box">
+                    </p>
+                    <p class="control">
+                        <button class="button" id="shot_inc_btn">
+                            +
+                        </button>
+                    </p>
+                </div>
+            </div>
+
+            <br />
+
+            <div class="field">
+                <div class="control">
+                    <button id="save_to_localstorage_btn" class="button">打数を保存</button>
+                </div>
+            </div>
+
+            <br />
+
+            <div class="field">
+                <div class="control">
+                    <button id="read_from_localstorage_btn" class="button">打数ログを読み込む</button>
+                </div>
+            </div>
+
+            <div class="field">
+                <div id="display_shot_counter">
+
+                </div>
+            </div>
+
+            <script src="./dist/js/bundle.js"></script>
+        </div>
+    </section>
 </body>
 
 </html>

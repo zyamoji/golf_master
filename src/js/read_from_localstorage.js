@@ -24,8 +24,8 @@ export default function () {
             } else {
                 const this_hole_data = shot_json_data[hole_key]
                 console.log(Object.keys(this_hole_data))
+                display_shot_counter.innerHTML = ""
                 for (var date_key of Object.keys(this_hole_data)) {
-                    display_shot_counter.innerHTML = ""
                     display_shot_counter.innerHTML += date_key + " のデータ↓<br>"
                     for (const time_key of Object.keys(this_hole_data[date_key])) {
                         display_shot_counter.innerHTML += time_key.slice(0, 2) + ":" + time_key.slice(2, 4) + " → " + this_hole_data[date_key][time_key]["shot_count"] + "打<br>"
