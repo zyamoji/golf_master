@@ -53,9 +53,23 @@
                     </div>
                 </div>
             </div>
-            <div class="field">
+
+            <div id="modal" class="modal">
+                <div id="modal_background" class="modal-background"></div>
+                <div class="modal-content">
+                    <p class="image is-3by4">
+                        <img id="course_layout_image" src="" alt="">
+                    </p>
+                </div>
+                <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+            
+            <div class="field is-grouped">
                 <div class="control">
                     <button id="position_get_btn" class="button is-link">位置取得</button>
+                </div>
+                <div class="control">
+                    <button id="show_course_layout_btn" class="button">コース図を表示</button>
                 </div>
             </div>
             <p id="app">「位置取得」ボタンを押すと、ここに情報が表示されます。</p>
