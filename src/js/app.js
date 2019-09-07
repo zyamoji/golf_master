@@ -4,6 +4,7 @@ import get_course_data from './get_course_data';
 import shot_counter from './shot_counter';
 import save_to_localstorage from './save_to_localstorage';
 import read_from_localstorage from './read_from_localstorage';
+import show_course_layout from './show_course_layout';
 import style from '../css/style'
 import bulma from '../css/bulma.min'
 
@@ -18,14 +19,14 @@ position_get_btn.addEventListener("click", async function () {
         ball_lat
     } = await get_position();
 
-    // 選択されたホールのカップ情報を取得
-    const cup_lng_lat = get_course_data("course_select", "hole_select")
+    // 選択されたホールの情報を取得
+    const hole_info = get_course_data("course_select", "hole_select")
 
     // 現在地からカップまでの距離を計算
     const {
         meter,
         yard
-    } = calc_dist_from_lon_lat(ball_lng, ball_lat, cup_lng_lat["lng"], cup_lng_lat["lat"]);
+    } = calc_dist_from_lon_lat(ball_lng, ball_lat, hole_info["cup_position"]["lng"], hole_info["cup_position"]["lat"]);
     // 計算結果を表示
     document.getElementById('app').innerHTML = "カップまで" + Math.round(yard) + "y (" + Math.round(meter) + " m)";
 }, false)
@@ -42,6 +43,9 @@ save_to_localstorage_btn.addEventListener("click", save_to_localstorage());
 const read_from_localstorage_btn = document.getElementById('read_from_localstorage_btn');
 // クリックしたら打数保存
 read_from_localstorage();
+
+// コースレイアウトを表示するmodal
+show_course_layout();
 
 // 起動時の処理
 document.addEventListener('DOMContentLoaded', function () {

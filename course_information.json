@@ -110,7 +110,8 @@
                     "cup_position": {
                         "lng": 140.338987,
                         "lat": 36.346092
-                    }
+                    },
+                    "course_layout_url": "http://pgm-images.s3.amazonaws.com/img/gallery/151/img_cid354_hole1_layout.jpg"
                 },
                 {
                     "number": 2,
@@ -123,7 +124,8 @@
                     "cup_position": {
                         "lng": 140.337950,
                         "lat": 36.344242
-                    }
+                    },
+                    "course_layout_url": "http://pgm-images.s3.amazonaws.com/img/gallery/151/img_cid354_hole2_layout.jpg"
                 },
                 {
                     "number": 3,
@@ -136,7 +138,8 @@
                     "cup_position": {
                         "lng": 140.335014,
                         "lat": 36.341032
-                    }
+                    },
+                    "course_layout_url": "http://pgm-images.s3.amazonaws.com/img/gallery/151/img_cid354_hole3_layout.jpg"
                 },
                 {
                     "number": 4,
@@ -149,7 +152,8 @@
                     "cup_position": {
                         "lng": 140.337852,
                         "lat": 36.342274
-                    }
+                    },
+                    "course_layout_url": "http://pgm-images.s3.amazonaws.com/img/gallery/151/img_cid354_hole4_layout.jpg"
                 },
                 {
                     "number": 5,
@@ -162,7 +166,8 @@
                     "cup_position": {
                         "lng": 140.334603,
                         "lat": 36.339986
-                    }
+                    },
+                    "course_layout_url": "http://pgm-images.s3.amazonaws.com/img/gallery/151/img_cid354_hole5_layout.jpg"
                 },
                 {
                     "number": 6,
@@ -175,7 +180,8 @@
                     "cup_position": {
                         "lng": 140.335232,
                         "lat": 36.343449
-                    }
+                    },
+                    "course_layout_url": "http://pgm-images.s3.amazonaws.com/img/gallery/151/img_cid354_hole6_layout.jpg"
                 },
                 {
                     "number": 7,
@@ -188,7 +194,8 @@
                     "cup_position": {
                         "lng": 140.337207,
                         "lat": 36.343637
-                    }
+                    },
+                    "course_layout_url": "http://pgm-images.s3.amazonaws.com/img/gallery/151/img_cid354_hole7_layout.jpg"
                 },
                 {
                     "number": 8,
@@ -201,7 +208,8 @@
                     "cup_position": {
                         "lng": 140.340728,
                         "lat": 36.345726
-                    }
+                    },
+                    "course_layout_url": "http://pgm-images.s3.amazonaws.com/img/gallery/151/img_cid354_hole8_layout.jpg"
                 },
                 {
                     "number": 9,
@@ -214,7 +222,8 @@
                     "cup_position": {
                         "lng": 140.343722,
                         "lat": 36.348119
-                    }
+                    },
+                    "course_layout_url": "http://pgm-images.s3.amazonaws.com/img/gallery/151/img_cid354_hole9_layout.jpg"
                 },
                 {
                     "number": 10,
@@ -227,7 +236,8 @@
                     "cup_position": {
                         "lng": 140.340357,
                         "lat": 36.343519
-                    }
+                    },
+                    "course_layout_url": "http://pgm-images.s3.amazonaws.com/img/gallery/151/img_cid355_hole10_layout.jpg"
                 },
                 {
                     "number": 11,
@@ -240,7 +250,8 @@
                     "cup_position": {
                         "lng": 140.342452,
                         "lat": 36.343327
-                    }
+                    },
+                    "course_layout_url": "http://pgm-images.s3.amazonaws.com/img/gallery/151/img_cid355_hole11_layout.jpg"
                 },
                 {
                     "number": 12,
@@ -253,7 +264,8 @@
                     "cup_position": {
                         "lng": 140.343013,
                         "lat": 36.340116
-                    }
+                    },
+                    "course_layout_url": "http://pgm-images.s3.amazonaws.com/img/gallery/151/img_cid355_hole12_layout.jpg"
                 },
                 {
                     "number": 13,
@@ -266,7 +278,8 @@
                     "cup_position": {
                         "lng": 140.343015,
                         "lat": 36.343216
-                    }
+                    },
+                    "course_layout_url": "http://pgm-images.s3.amazonaws.com/img/gallery/151/img_cid355_hole13_layout.jpg"
                 },
                 {
                     "number": 14,
@@ -279,7 +292,8 @@
                     "cup_position": {
                         "lng": 140.343919,
                         "lat": 36.339608
-                    }
+                    },
+                    "course_layout_url": "http://pgm-images.s3.amazonaws.com/img/gallery/151/img_cid355_hole14_layout.jpg"
                 },
                 {
                     "number": 15,
@@ -292,7 +306,8 @@
                     "cup_position": {
                         "lng": 140.340163,
                         "lat": 36.342115
-                    }
+                    },
+                    "course_layout_url": "http://pgm-images.s3.amazonaws.com/img/gallery/151/img_cid355_hole15_layout.jpg"
                 },
                 {
                     "number": 16,
@@ -305,7 +320,8 @@
                     "cup_position": {
                         "lng": 140.338471,
                         "lat": 36.343342
-                    }
+                    },
+                    "course_layout_url": "http://pgm-images.s3.amazonaws.com/img/gallery/151/img_cid355_hole16_layout.jpg"
                 },
                 {
                     "number": 17,
@@ -318,7 +334,8 @@
                     "cup_position": {
                         "lng": 140.341971,
                         "lat": 36.344896
-                    }
+                    },
+                    "course_layout_url": "http://pgm-images.s3.amazonaws.com/img/gallery/151/img_cid355_hole17_layout.jpg"
                 },
                 {
                     "number": 18,
@@ -331,7 +348,8 @@
                     "cup_position": {
                         "lng": 140.344941,
                         "lat": 36.348076
-                    }
+                    },
+                    "course_layout_url": "http://pgm-images.s3.amazonaws.com/img/gallery/151/img_cid355_hole18_layout.jpg"
                 }
 
 

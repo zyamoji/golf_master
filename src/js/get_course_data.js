@@ -14,7 +14,7 @@ export default function(course_id, hole_id) {
             for (let hole_info of course_info["holes"]) {
                 if (hole_info["number"] == Number(selected_hole)) {
                     console.log(Number(selected_hole))
-                    return hole_info["cup_position"]
+                    return hole_info
                 }
             }
         }
