@@ -5,6 +5,7 @@ import shot_counter from './shot_counter';
 import save_to_localstorage from './save_to_localstorage';
 import read_from_localstorage from './read_from_localstorage';
 import show_course_layout from './show_course_layout';
+import on_select_course from './on_select_course';
 import style from '../css/style'
 import bulma from '../css/bulma.min'
 
@@ -46,6 +47,9 @@ read_from_localstorage();
 
 // コースレイアウトを表示するmodal
 show_course_layout();
+
+// コース図が変更された時
+on_select_course();
 
 // 起動時の処理
 document.addEventListener('DOMContentLoaded', function () {
