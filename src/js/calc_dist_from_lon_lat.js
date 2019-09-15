@@ -1,5 +1,5 @@
 export default function(deg_x1, deg_y1, deg_x2, deg_y2) {
-    console.log('Hello Fon');
+    //console.log('Hello Fon');
 
     // earth radius(m)
     const r = 6378137
@@ -18,8 +18,8 @@ export default function(deg_x1, deg_y1, deg_x2, deg_y2) {
     
     // calc distance(km)
     const d = r * Math.acos(siny1siny2 + cosy1cosy2 * cosdx)
-    console.log('meter is : ' + d)
-    console.log('yard is : ' + d*1.0936)
+    //console.log('meter is : ' + d)
+    //console.log('yard is : ' + d*1.0936)
 
     return {'meter': d, 'yard': d*1.0936};
 }
