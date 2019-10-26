@@ -29,6 +29,17 @@ export default function () {
                     display_shot_counter.innerHTML += date_key + " のデータ↓<br>"
                     for (const time_key of Object.keys(this_hole_data[date_key])) {
                         display_shot_counter.innerHTML += time_key.slice(0, 2) + ":" + time_key.slice(2, 4) + " → " + this_hole_data[date_key][time_key]["shot_count"] + "打<br>"
+                        // 打球位置がある場合は表示
+                        if (this_hole_data[date_key][time_key]["ball_position_history"] != null) {
+                            const len = (this_hole_data[date_key][time_key]["ball_position_history"]).length
+                            console.log((this_hole_data[date_key][time_key]["ball_position_history"]).length)
+                            for (let ball_pos_index = 0; ball_pos_index < len; ball_pos_index++) {
+                                console.log(ball_pos_index)
+                                display_shot_counter.innerHTML += this_hole_data[date_key][time_key]["ball_position_history"][ball_pos_index]["lng"] + "," +
+                                    this_hole_data[date_key][time_key]["ball_position_history"][ball_pos_index]["lat"] + "<br>"
+                            }
+                            display_shot_counter.innerHTML += "<br>"
+                        }
                     }
                     console.log(this_hole_data[date_key])
                 }
