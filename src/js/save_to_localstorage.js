@@ -1,4 +1,4 @@
-export default function () {
+export default function (ball_position_array) {
            
     // 保存ボタン押したらデータを保存
     save_to_localstorage_btn.addEventListener("click", function () {
@@ -30,7 +30,8 @@ export default function () {
 
         const time_obj = {
             [time_str_len4]: {
-                "shot_count": shot_count
+                "shot_count": shot_count,
+                "ball_position_history": ball_position_array
             }
         }
 
@@ -53,7 +54,8 @@ export default function () {
         // ホール情報があって同じ日付もある時
         } else if (shot_json_data[hole_key][date_key] != undefined) {
             shot_json_data[hole_key][date_key][time_str_len4] = {
-                "shot_count": shot_count
+                "shot_count": shot_count,
+                "ball_position_history": ball_position_array
             }
         }
         

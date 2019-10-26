@@ -50,7 +50,7 @@ const save_to_localstorage_btn = document.getElementById('save_to_localstorage_b
 // クリックしたら打数保存
 // TODO
 // 打球位置も消す
-save_to_localstorage_btn.addEventListener("click", save_to_localstorage());
+save_to_localstorage_btn.addEventListener("click", () => save_to_localstorage(ball_position_array));
 
 // 打数ログ読み込みボタン
 const read_from_localstorage_btn = document.getElementById('read_from_localstorage_btn');
